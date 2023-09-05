@@ -1,26 +1,10 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-  <!-- <quizPage
-    :questions-object="questionsObject"
-    @correctAnswers="displayResult"
-  />
-  <resultsPage :score="score" /> -->
   <router-view></router-view>
-  <!-- <router-view v-slot="xVideos">
-    <component :is="xVideos.Component"></component>
-  </router-view> -->
 </template>
 
 <script>
-// import quizPage from "@/components/quizPage.vue";
-// import resultsPage from "@/components/resultsPage.vue";
-
 export default {
   name: "App",
-  // components: {
-  //   quizPage,
-  //   resultsPage,
-  // },
   data() {
     return {
       questionsObject: {},
@@ -41,7 +25,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }
